@@ -1,0 +1,10 @@
+# add pods for desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
+target 'e-shop' do
+ use_frameworks!
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+
+end
